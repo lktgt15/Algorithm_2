@@ -71,6 +71,54 @@ for(int r=1;r<=primes.size();r++){
 
 - 위와 마찬가지로 r값은 계속 옮겨주면서 l값을 pSum[r] - pSum[l]이 N보다 작거나 같을 때까지 빼주면, 연속합이 N이 되는 경우의 수를 찾을 수 있다.
 
+### 전체 코드
+```java
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static StringTokenizer st;
+
+    static int N;
+    static boolean[] isPrime;
+    static List<Integer> primes;
+    public static void main(String[] args) throws IOException {
+        N = Integer.parseInt(br.readLine());
+        primes = new ArrayList<>();
+        isPrime = new boolean[N+1];
+
+        init();
+
+        int l,sum,ans;
+        l = 0;
+        sum = 0;
+        ans = 0;
+        for(int r=0;r<primes.size();r++){
+            sum += primes.get(r);
+            while(sum > N){
+                sum -= primes.get(l++);
+            }
+            if(sum == N) ans++;
+        }
+        System.out.println(ans);
+    }
+
+    // build primes array
+    static void init(){
+        Arrays.fill(isPrime,true);
+        for(long i=2;i<=N;i++){
+            if(isPrime[(int) i]){
+                primes.add((int)i);
+                for(long j=i*i;j<=N;j+=i){
+                    isPrime[(int)j] = false;
+                }
+            }
+        }
+    }
+}
+
+```
 
 ## ✅ 후기
 알고리즘에서 은근 자주 사용되는 두 가지 개념이 간단하게 엮여있어 좋은 문제였다.
