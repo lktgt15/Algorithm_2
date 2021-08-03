@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1918" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/2805" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1018" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/14891" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1644" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/15684" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1916" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1300" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/13460" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1107" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1012" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1931" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1992" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/15685" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/1389" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/5525" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/acmicpc/6603" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
