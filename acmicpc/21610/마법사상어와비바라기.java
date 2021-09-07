@@ -37,6 +37,7 @@ public class 마법사상어와비바라기 {
             s = Integer.parseInt(st.nextToken());
             moveCloud(d,s); // 1
             rainCloud();    // 2
+            print();
             copyBug();      // 4
             resetCloud();   // 3
             createCloud();  // 5
@@ -47,6 +48,16 @@ public class 마법사상어와비바라기 {
             ans += bucket[i][j];
         }
         System.out.println(ans);
+    }
+
+    static void print(){
+        for(int i=0;i<N;i++){
+            for(int j=0;j<N;j++){
+                System.out.print(bucket[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
     static void createCloud(){
